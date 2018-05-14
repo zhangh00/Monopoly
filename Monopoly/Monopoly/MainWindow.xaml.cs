@@ -30,6 +30,7 @@ namespace Monopoly
         {
             Spiel subWindow = new Spiel();
             subWindow.Show();
+            //Test
             this.Close();
         }
     }
