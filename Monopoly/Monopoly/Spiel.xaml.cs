@@ -10,27 +10,18 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace Monopoly
 {
     /// <summary>
-    /// Interaktionslogik für MainWindow.xaml
+    /// Interaktionslogik für Spiel.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class Spiel : Window
     {
-        public MainWindow()
+        public Spiel()
         {
             InitializeComponent();
-            
-        }
-
-        private void ButtonClicked(object sender, RoutedEventArgs e)
-        {
-            Spiel subWindow = new Spiel();
-            subWindow.Show();
-            this.Close();
         }
     }
 }
