@@ -1,0 +1,16 @@
+C:\Users\MR.X\Desktop\Monopoly\Monopoly\Monopoly\bin\Debug\Monopoly.exe.config
+C:\Users\MR.X\Desktop\Monopoly\Monopoly\Monopoly\bin\Debug\Monopoly.exe
+C:\Users\MR.X\Desktop\Monopoly\Monopoly\Monopoly\bin\Debug\Monopoly.pdb
+C:\Users\MR.X\Desktop\Monopoly\Monopoly\Monopoly\obj\Debug\MainWindow.g.cs
+C:\Users\MR.X\Desktop\Monopoly\Monopoly\Monopoly\obj\Debug\Spiel.g.cs
+C:\Users\MR.X\Desktop\Monopoly\Monopoly\Monopoly\obj\Debug\App.g.cs
+C:\Users\MR.X\Desktop\Monopoly\Monopoly\Monopoly\obj\Debug\Monopoly_MarkupCompile.cache
+C:\Users\MR.X\Desktop\Monopoly\Monopoly\Monopoly\obj\Debug\Monopoly_MarkupCompile.lref
+C:\Users\MR.X\Desktop\Monopoly\Monopoly\Monopoly\obj\Debug\MainWindow.baml
+C:\Users\MR.X\Desktop\Monopoly\Monopoly\Monopoly\obj\Debug\Spiel.baml
+C:\Users\MR.X\Desktop\Monopoly\Monopoly\Monopoly\obj\Debug\Monopoly.g.resources
+C:\Users\MR.X\Desktop\Monopoly\Monopoly\Monopoly\obj\Debug\Monopoly.Properties.Resources.resources
+C:\Users\MR.X\Desktop\Monopoly\Monopoly\Monopoly\obj\Debug\Monopoly.csproj.GenerateResource.Cache
+C:\Users\MR.X\Desktop\Monopoly\Monopoly\Monopoly\obj\Debug\Monopoly.csproj.CoreCompileInputs.cache
+C:\Users\MR.X\Desktop\Monopoly\Monopoly\Monopoly\obj\Debug\Monopoly.exe
+C:\Users\MR.X\Desktop\Monopoly\Monopoly\Monopoly\obj\Debug\Monopoly.pdb
