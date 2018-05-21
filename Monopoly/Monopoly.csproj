@@ -55,10 +55,12 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Ereignis.cs" />
     <Compile Include="Spiel.xaml.cs">
       <DependentUpon>Spiel.xaml</DependentUpon>
     </Compile>
     <Compile Include="Spieler.cs" />
+    <Compile Include="Spielfeld.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -117,6 +119,42 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="img\4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="img\start.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="img\gotojail.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="img\freeparking.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="img\jailvisiting.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="img\station.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="img\ereignis.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="img\deadstreet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="img\biohazard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="img\cthulhu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="img\eye.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="img\caduceus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="img\flare.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

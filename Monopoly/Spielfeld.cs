@@ -14,14 +14,16 @@ using System.Windows.Shapes;
 
 namespace Monopoly
 {
-    /// <summary>
-    /// Interaktionslogik für Spiel.xaml
-    /// </summary>
-    public partial class Spiel : Window
+    class Spielfeld : Ereignis
     {
-        public Spiel()
+        public List<Rectangle> feld = new List<Rectangle>();
+        public List<int> feldstatus = new List<int>();
+        public Spielfeld()
         {
-            InitializeComponent();
+            for (int i = 0; i < feld.Count; i++)
+            {
+                feldstatus.Add(0);
+            }
         }
     }
 }

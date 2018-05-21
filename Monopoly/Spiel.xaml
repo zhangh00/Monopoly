@@ -5,6 +5,36 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Monopoly"
         mc:Ignorable="d"
-        Title="Spiel" Height="700" Width="1300" MinHeight="700" MinWidth="1300" MaxHeight="700" MaxWidth="1300">
-    <Grid/>
+        Title="Spiel" Height="775" Width="1200" MinHeight="775" MinWidth="1200" MaxHeight="775" MaxWidth="1200">
+    <Grid x:Name="MyGrid">
+        <Image Source="img/1.png" Margin="159,152,906,482"/>
+        <Image Source="img/2.png" Margin="159,262,906,372"/>
+        <Image Source="img/3.png" Margin="159,378,906,256"/>
+        <Image Source="img/4.png" Margin="159,488,906,146"/>
+        <Label x:Name="Spieler1" Content="Spieler 1 " HorizontalAlignment="Left" Margin="291,152,0,0" VerticalAlignment="Top" Height="50" Width="99" RenderTransformOrigin="0.486,1.162" FontSize="24"/>
+        <Label Content="" HorizontalAlignment="Left" Margin="159,152,0,0" VerticalAlignment="Top" Width="13" Background="#FFEE8080" Height="110"/>
+        <Label Content="" HorizontalAlignment="Left" Margin="159,262,0,0" VerticalAlignment="Top" Width="13" Background="#FFE6E174" Height="116"/>
+        <Label Content="" HorizontalAlignment="Left" Margin="159,378,0,0" VerticalAlignment="Top" Width="13" Background="#FF96D8D8" Height="114"/>
+        <Label Content="" HorizontalAlignment="Left" Margin="159,492,0,0" VerticalAlignment="Top" Width="13" Background="#FF806666" Height="110"/>
+        <Label x:Name="Spieler2" Content="Bot" HorizontalAlignment="Left" Margin="291,262,0,0" VerticalAlignment="Top" Height="50" Width="99" RenderTransformOrigin="0.486,1.162" FontSize="24"/>
+        <Label x:Name="Spieler3" Content="Bot" HorizontalAlignment="Left" Margin="291,380,0,0" VerticalAlignment="Top" Height="50" Width="99" RenderTransformOrigin="0.486,1.162" FontSize="24"/>
+        <Label x:Name="Spieler4" Content="Bot" HorizontalAlignment="Left" Margin="291,492,0,0" VerticalAlignment="Top" Height="50" Width="99" RenderTransformOrigin="0.486,1.162" FontSize="24"/>
+        <Label x:Name="Coin1" Content=" " HorizontalAlignment="Left" Margin="291,202,0,0" VerticalAlignment="Top" Height="50" Width="99" RenderTransformOrigin="0.486,1.162" FontSize="24" BorderBrush="White" Background="#FFEE8080"/>
+        <Label x:Name="Coin2" Content=" " HorizontalAlignment="Left" Margin="291,322,0,0" VerticalAlignment="Top" Height="50" Width="99" RenderTransformOrigin="0.486,1.162" FontSize="24" Background="#FFE6E174"/>
+        <Label x:Name="Coin3" Content=" " HorizontalAlignment="Left" Margin="291,438,0,0" VerticalAlignment="Top" Height="50" Width="99" RenderTransformOrigin="0.486,1.162" FontSize="24" Background="#FF96D8D8"/>
+        <Label x:Name="Coin4" Content=" " HorizontalAlignment="Left" Margin="291,548,0,0" VerticalAlignment="Top" Height="50" Width="99" RenderTransformOrigin="0.486,1.162" FontSize="24" Background="#FF806666"/>
+        <Image x:Name="Player1" Source="img/1.png" Margin="1046,603,81,77" MinHeight="50" MinWidth="40" MaxHeight="50" MaxWidth="40" RenderTransformOrigin="-0.269,4.367"/>
+        <Image x:Name="Player2" Source="img/2.png" Margin="1110,603,17,77" MinHeight="50" MinWidth="40" MaxHeight="50" MaxWidth="40"/>
+        <Image x:Name="Player3" Source="img/3.png" Margin="1046,667,81,13" MinHeight="50" MinWidth="40" MaxHeight="50" MaxWidth="40"/>
+        <Image x:Name="Player4" Source="img/4.png" Margin="1111,667,16,13" MinHeight="50" MinWidth="40" MaxHeight="50" MaxWidth="40"/>
+        <Button x:Name="Spieler1btnw" Content="Würfel" HorizontalAlignment="Left" Margin="411,163,0,0" VerticalAlignment="Top" Width="73" Height="27" FontSize="16" Click="Spieler1btnw_Click"/>
+        <Button x:Name="Spieler1btnende" Content="ENDE" HorizontalAlignment="Left" Margin="411,202,0,0" VerticalAlignment="Top" Width="73" Height="50" FontSize="16" Click="ende_Click" Visibility="Hidden"/>
+        <Button x:Name="Spieler2btnw" Content="Würfel" HorizontalAlignment="Left" Margin="411,273,0,0" VerticalAlignment="Top" Width="73" Height="27" FontSize="16" Visibility="Hidden" Click="Spieler2btnw_Click"/>
+        <Button x:Name="Spieler2btnende" Content="ENDE" HorizontalAlignment="Left" Margin="411,322,0,0" VerticalAlignment="Top" Width="73" Height="50" FontSize="16" Click="ende_Click" Visibility="Hidden"/>
+        <Button x:Name="Spieler3btnw" Content="Würfel" HorizontalAlignment="Left" Margin="411,389,0,0" VerticalAlignment="Top" Width="73" Height="27" FontSize="16" Click="Spieler3btnw_Click" Visibility="Hidden"/>
+        <Button x:Name="Spieler3btnende" Content="ENDE" HorizontalAlignment="Left" Margin="411,438,0,0" VerticalAlignment="Top" Width="73" Height="50" FontSize="16" Click="ende_Click" Visibility="Hidden"/>
+        <Button x:Name="Spieler4btnw" Content="Würfel" HorizontalAlignment="Left" Margin="411,503,0,0" VerticalAlignment="Top" Width="73" Height="27" FontSize="16" Visibility="Hidden" Click="Spieler4btnw_Click"/>
+        <Button x:Name="Spieler4btnende" Content="ENDE" HorizontalAlignment="Left" Margin="411,548,0,0" VerticalAlignment="Top" Width="73" Height="50" FontSize="16" Click="ende_Click" Visibility="Hidden"/>
+        <Button x:Name="kaufenbtn" Content="Kaufen" HorizontalAlignment="Left" Margin="718,318,0,0" VerticalAlignment="Top" Width="241" Height="137" FontSize="72" Visibility="Hidden"/>
+    </Grid>
 </Window>
